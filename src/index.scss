@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  height: 600px;
+  display: flex;
+}
+.left  {
+  background:#30326b;
+  flex:1;
+	padding: 5px;
+	overflow:auto;
+}
+.right {
+  background: #1a2237;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+	overflow:auto;
+}
+button {
+  margin: 10px;
+  width: 200px;
+  background: #1a2237;
+  border: 1px solid white;
+	border-radius: 2px;
+  color: white;
+  height: 30px;
+}
+.bags {
+  display: flex;
+}
+.bag {
+  margin: 5px;
+  width: 100px;
+  background: #30326b;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* Background effect. It covers the entire site */
+.modal {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Overlay effect: translucent background: black w/ partial opacity */
+  z-index: 1; /* Overlay effect: positioned over other containers */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  position: fixed; /* Fix position on the top-left corner*/
+  top: 0;
+  left: 0;
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 80px; /* Location of the content container */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  width: 70%; /* Width in proportion to its parent container*/
+  max-width: 640px; /* Max width where it stops expanding */
+  height: 70%; /* Height in proportion to its parent container */
+  margin: auto; /* Auto margin according to the element width */
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; /* Optional. Rounds container corners */
+}
+
+.modal-flex {
+  display: flex;
+  height: 100%; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-info {
+  background-color: #888;
+  border: 1px solid #888;
+}
+
+/* Close button */
+.close {
+  color: #aaaaaa;
+  float: right; /* Positioned to the right of the parent container whichever size it is */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.yb {
+	width: 100px;
+	height: 20px;
+	background-color:antiquewhite;
+	text-align: center;
+	line-height: 20px;
+	margin: 5px;
+	color: black;
+}
+.composite {
+	background-color: cadetblue;
+	margin: 5px;
+}
+.compositePanel {
+	color: black;
+}

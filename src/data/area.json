@@ -1,0 +1,12 @@
+{
+  "hui": {
+    "shop": {
+      "text": "商店",
+      "click": "{{shop.init}}"
+    },
+    "dongjiao": {
+      "text": "北郊",
+      "click": "{{event.unOpen}}"
+    }
+  }
+}

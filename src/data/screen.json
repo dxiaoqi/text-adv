@@ -1,0 +1,17 @@
+{
+  "hui": {
+    "text": "安徽",
+    "des": "小巧玲珑，洁白如玉，皮酥馅饱",
+    "click": "{{screen.hui}}"
+  },
+  "su": {
+    "text": "苏州",
+    "des": "皮层酥松，色泽美观，馅料肥而不腻，口感酥脆",
+    "click": "{{event.unOpen}}"
+  },
+  "jing": {
+    "text": "北京",
+    "des": "外形精美，皮薄酥软，层次分明，风味诱人",
+    "click": "{{event.unOpen}}"
+  }
+}

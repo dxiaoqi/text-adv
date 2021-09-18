@@ -1,0 +1,8 @@
+{
+  "init": {
+    "tyep": "event",
+    "text": "做月饼啦,我们要去哪里呢？",
+    "enter": "{{event.random}}",
+    "leave": "{{area}}"
+  }
+}

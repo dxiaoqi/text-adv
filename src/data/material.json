@@ -1,0 +1,58 @@
+{
+  "flour": {
+    "id": 1,
+    "type": "material",
+    "text": "精面粉",
+    "des": "小巧玲珑，洁白如玉，皮酥馅饱",
+    "click": "{{event.flour}}"
+  },
+  "butter": {
+    "id": 2,
+    "type": "material",
+    "text": "酥油",
+    "des": "皮层酥松，色泽美观，馅料肥而不腻，口感酥脆",
+    "click": "{{event.butter}}"
+  },
+  "kubancai": {
+    "id": 3,
+    "type": "material",
+    "text": "苦板菜",
+    "des": "徽式月饼的材料",
+    "click": "{{event.kubancai}}"
+  },
+  "suger": {
+    "id": 4,
+    "type": "material",
+    "text": "白糖",
+    "des": "甜甜的，是嫦娥姐姐的味道",
+    "click": "{{event.suger}}"
+  },
+  "egg": {
+    "id": 5,
+    "type": "material",
+    "text": "鸡蛋",
+    "des": "咯咯哒~是它的妈妈在想它嘛？",
+    "click": "{{event.egg}}"
+  },
+  "readBean": {
+    "id": 6,
+    "type": "material",
+    "text": "红豆",
+    "des": "姐姐总说，红豆最相思，不知道你也有在想着我嘛，反正我想你了！",
+    "click": "{{event.readBean}}"
+  },
+  "jujube": {
+    "id": 7,
+    "type": "material",
+    "text": "枣子",
+    "des": "枣枣枣，早早早，早睡早起身体好",
+    "click": "{{event.jujube}}"
+  },
+  "pinenuts": {
+    "id": 8,
+    "type": "material",
+    "text": "松子",
+    "des": "送子不是观音该干的事嘛，这植物居然也可以？我还是个孩子呀",
+    "click": "{{event.pinenuts}}"
+  }
+}
